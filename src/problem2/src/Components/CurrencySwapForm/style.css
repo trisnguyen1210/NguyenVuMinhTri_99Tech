@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua !important;
+    justify-content: center;
+    display: flex;
+    padding-top: 30vh;
+}
+
+.background {
+    width: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.header_app {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.body_app {
+    display: flex;
+    justify-content: center;
+}
+
+.value_from {
+    display: flex;
+}
+
+#value_first {
+    width: 30vw;
+}
+
+#value_first_type {
+    width: 7vw;
+}
+
+.value_to {
+    display: flex;
+}
+
+#value_second {
+    width: 30vw;
+}
+
+#value_second_type {
+    width: 7vw;
+}
+
+.chakra-select__wrapper {
+    width: fit-content !important;
+}
